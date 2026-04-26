@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Party Planning System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Party Planning System (PPS)</h1>
+    <p>Create a rental equipment list and estimate your event cost.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Rental Duration</h2>
+      <label for="days">Number of Rental Days:</label>
+      <input type="number" id="days" min="1" value="1" />
+    </section>
+
+    <section class="card">
+      <h2>Available Equipment</h2>
+      <div id="equipment-list"></div>
+    </section>
+
+    <section class="card">
+      <h2>Your Rental Estimate</h2>
+      <div id="estimate-list">
+        <p>No items selected yet.</p>
+      </div>
+      <h2 id="total">Total: $0.00</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p>Party Planners Inc. Prototype</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
