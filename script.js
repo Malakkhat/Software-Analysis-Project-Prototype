@@ -3,7 +3,17 @@ const equipment = [
   { id: 2, name: "Round Table", price: 7.00 },
   { id: 3, name: "Party Tent", price: 45.00 },
   { id: 4, name: "String Lights", price: 5.00 },
-  { id: 5, name: "Portable Speaker", price: 20.00 }
+  { id: 5, name: "Portable Speaker", price: 20.00 },
+  { id: 6, name: "Balloon Arch", price: 75.00 }, 
+  { id: 7, name: "Tablecloth", price: 4.00 }, 
+  { id: 8, name: "Dinner Plate Set", price: 3.00 }, 
+  { id: 9, name: "Photo Booth", price: 150.00 }, 
+  { id: 10, name: "Projector", price: 60.00 }, 
+  { id: 11, name: "Carpet", price: 30.00 },
+  { id: 12, name: "Glassware Set", price: 3.50 }, 
+  { id: 13, name: "Portable Heater", price: 25.00 }, 
+  { id: 14, name: "Chair Cover", price: 1.50 }, 
+  { id: 15, name: "Microphone", price: 15.00 }
 ];
 
 let cart = [];
